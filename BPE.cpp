@@ -36,7 +36,7 @@ size_t getMemoryUsage() {
 
 void task5(){
     int iterations = 32000;
-    std::ifstream corpusText("/Users/samraya/Desktop/The complete works of William Shakespeare.txt");
+    std::ifstream corpusText("The complete works of William Shakespeare.txt");
     robin_hood::unordered_map<std::string, token> token_data;
     std::vector<std::string> words;
     robin_hood::unordered_map<std::string, int> word_frequencies;
